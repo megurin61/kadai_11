@@ -1,0 +1,138 @@
+/* Global Style */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6f2; /* Soft pink background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling */
+h1 {
+    color: #ff66b2; /* Pink color for the title */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"], 
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+textarea {
+    height: 120px;
+}
+
+/* Submit Button Styling */
+input[type="submit"] {
+    background-color: #ff66b2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff4d94;
+}
+
+/* Table Styling (Recipe List) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd; /* Light border for table cells */
+    text-align: center;
+}
+
+th {
+    background-color: #ff66b2; /* Pink background for header */
+    color: white;
+    font-weight: bold;
+}
+
+td img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Table Row Hover Effect */
+tr:hover {
+    background-color: #f9e6ff; /* Light hover effect on table rows */
+}
+
+/* Links and Buttons */
+a {
+    background-color: #ff66b2;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+a:hover {
+    background-color: #ff4d94;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        margin-top: 10px;
+    }
+
+    table, th, td {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    input[type="text"], 
+    textarea,
+    input[type="file"] {
+        font-size: 14px;
+    }
+}
